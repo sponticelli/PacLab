@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2e3acd8d611519b4abb82dbe079652e9
+guid: cfba006a6b73349cdb34fe25db595171
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 903425539018692288
-    second: RectangleBorder300_0
+      213: -6185343655787597505
+    second: grid_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,199 +113,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoxSquare_TopLeft
+      name: grid_wall
       rect:
         serializedVersion: 2
         x: 0
-        y: 200
-        width: 100
-        height: 100
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 159a538a120b7974b9cf933ea4b67b3c
-      internalID: 1092107233
+      spriteID: f31701767be392aa0800000000000000
+      internalID: -6185343655787597505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoxSquare_Top
+      name: grid_curve_small
       rect:
         serializedVersion: 2
-        x: 100
-        y: 200
-        width: 100
-        height: 100
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cfb4ee727bd3c64784cbf5fc2ff60cc
-      internalID: -887955943
+      spriteID: ef39ad05aa5734244be3b12ddc22de26
+      internalID: -429573243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoxSquare_TopRight
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 200
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e80e22d7ec6a1974eb46b29cc1207e6a
-      internalID: -1965753614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoxSquare_Left
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4f640f8ab0b91347a045eb16ffe50f1
-      internalID: 1900100937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoxSquare_Center
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43b85e732d83a0247bc912bca5a4edbe
-      internalID: -10997649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoxSquare_Right
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a322c1901c4fbbf4ba16192d05eae091
-      internalID: 1577860316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoxSquare_BottomLeft
+      name: grid_curve_large
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3b103cadd521794f8d0acf4c6061a23
-      internalID: -1831058788
+      spriteID: 3bc7433e3280c49f3b47e8cf039f2bb3
+      internalID: 1134058267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoxSquare_Bottom
+      name: grid_empty
       rect:
         serializedVersion: 2
-        x: 100
+        x: 64
         y: 0
-        width: 100
-        height: 100
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c2dbf549f11745469c7094541c48baf
-      internalID: -2007227353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoxSquare_BottomRight
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 370e5687cf96df24a9e8c10f408ef50a
-      internalID: -1670689099
+      spriteID: ec4f1d549550f48d6b9b6f883395fb84
+      internalID: 1381408738
       vertices: []
       indices: 
       edges: []
@@ -314,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8bf2f29258d6fcc4d83f2fad5558da6f
+    spriteID: d1b49863617714ecdb11ed42251f86c2
     internalID: 0
     vertices: []
     indices: 
@@ -322,17 +212,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      BoxSquare_Bottom: -2007227353
-      BoxSquare_BottomLeft: -1831058788
-      BoxSquare_BottomRight: -1670689099
-      BoxSquare_Center: -10997649
-      BoxSquare_Left: 1900100937
-      BoxSquare_Right: 1577860316
-      BoxSquare_Top: -887955943
-      BoxSquare_TopLeft: 1092107233
-      BoxSquare_TopRight: -1965753614
+      grid_curve_large: 1134058267
+      grid_curve_small: -429573243
+      grid_empty: 1381408738
+      grid_wall: -6185343655787597505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: badf419c1a00c4fb7b2c4835496f572c
+guid: 1e564353456214421a701172b1fd2f7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4334783836991956000
-    second: player_0
+      213: 4448715427215634006
+    second: ghost_0
   - first:
-      213: 7388399842426930641
-    second: player_1
+      213: -5371487250077298216
+    second: ghost_1
   - first:
-      213: 6757282713640645180
-    second: player_2
+      213: 3804052344441610512
+    second: ghost_2
+  - first:
+      213: -1547119588211550254
+    second: ghost_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,67 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_0
+      name: ghost
       rect:
         serializedVersion: 2
-        x: 16
-        y: 400
-        width: 98
-        height: 98
+        x: 3
+        y: 6
+        width: 89
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024a20edeee382c30800000000000000
-      internalID: 4334783836991956000
+      spriteID: 65eecf95c130dbd30800000000000000
+      internalID: 4448715427215634006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_1
+      name: ghost_trasparent
       rect:
         serializedVersion: 2
-        x: 16
-        y: 292
-        width: 94
-        height: 98
+        x: 94
+        y: 5
+        width: 91
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d5c862e28ed88660800000000000000
-      internalID: 7388399842426930641
+      spriteID: 8d15a9f2ec4a475b0800000000000000
+      internalID: -5371487250077298216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_2
+      name: ghost_eye
       rect:
         serializedVersion: 2
-        x: 16
-        y: 189
-        width: 85
-        height: 98
+        x: 210
+        y: 64
+        width: 38
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c32307193d0b6cd50800000000000000
-      internalID: 6757282713640645180
+      spriteID: 0112f69d375bac430800000000000000
+      internalID: 3804052344441610512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pupil
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 29
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d71a977ee6878ae0800000000000000
+      internalID: -1547119588211550254
       vertices: []
       indices: 
       edges: []
@@ -188,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 65c1ed67d1947474ea0718995cfe128b
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_0: 4334783836991956000
-      player_1: 7388399842426930641
-      player_2: 6757282713640645180
+      ghost: 4448715427215634006
+      ghost_eye: 3804052344441610512
+      ghost_pupil: -1547119588211550254
+      ghost_trasparent: -5371487250077298216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

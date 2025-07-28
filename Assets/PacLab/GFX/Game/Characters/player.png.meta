@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 1e564353456214421a701172b1fd2f7b
+guid: badf419c1a00c4fb7b2c4835496f572c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4448715427215634006
-    second: ghost_0
+      213: 4334783836991956000
+    second: player_0
   - first:
-      213: -5371487250077298216
-    second: ghost_1
+      213: 7388399842426930641
+    second: player_1
   - first:
-      213: 3804052344441610512
-    second: ghost_2
-  - first:
-      213: -1547119588211550254
-    second: ghost_3
+      213: 6757282713640645180
+    second: player_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ghost
+      name: player_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 6
-        width: 89
-        height: 113
+        x: 16
+        y: 400
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65eecf95c130dbd30800000000000000
-      internalID: 4448715427215634006
+      spriteID: 024a20edeee382c30800000000000000
+      internalID: 4334783836991956000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_trasparent
+      name: player_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 5
-        width: 91
-        height: 115
+        x: 16
+        y: 292
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d15a9f2ec4a475b0800000000000000
-      internalID: -5371487250077298216
+      spriteID: 1d5c862e28ed88660800000000000000
+      internalID: 7388399842426930641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_eye
+      name: player_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 64
-        width: 38
-        height: 39
+        x: 16
+        y: 189
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,30 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0112f69d375bac430800000000000000
-      internalID: 3804052344441610512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ghost_pupil
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 29
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d71a977ee6878ae0800000000000000
-      internalID: -1547119588211550254
+      spriteID: c32307193d0b6cd50800000000000000
+      internalID: 6757282713640645180
       vertices: []
       indices: 
       edges: []
@@ -213,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 65c1ed67d1947474ea0718995cfe128b
+    spriteID: 2c538a69a44fe45b39c6887f46f31dc2
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ghost: 4448715427215634006
-      ghost_eye: 3804052344441610512
-      ghost_pupil: -1547119588211550254
-      ghost_trasparent: -5371487250077298216
+      player_0: 4334783836991956000
+      player_1: 7388399842426930641
+      player_2: 6757282713640645180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
